@@ -1,0 +1,45 @@
+*{
+    background-color: #111111;
+    color: white;
+}
+
+.container-4x4 {
+    display: flex;    
+}
+
+#right{
+    text-align: right;
+    align-items: flex-end;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+transform: translateY(-5px);
+cursor: pointer;
+}
+
+.image {
+float: right;
+max-width: 1000px;
+max-height: 1000px;
+}
+   
+.green {
+border-left: 3px solid #d4a470
+}
+
